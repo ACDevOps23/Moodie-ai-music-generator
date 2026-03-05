@@ -1,0 +1,125 @@
+##################################################
+# ENVIRONMENT VARIABLES
+##################################################
+
+.env
+.env.local
+.env.*.local
+.env.development.local
+*.local
+
+# allow example env templates
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+
+##################################################
+# DEPENDENCIES
+##################################################
+
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Python environments (if used for scripts)
+venv/
+__pycache__/
+*.pyc
+
+
+##################################################
+# BUILD OUTPUT
+##################################################
+
+dist/
+dist-ssr/
+build/
+
+backend/dist/
+frontend/dist/
+
+
+##################################################
+# LOG FILES
+##################################################
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+##################################################
+# DATABASE FILES
+##################################################
+
+*.db
+*.sqlite
+*.sqlite3
+.mongodb/
+*.mongodb
+
+
+##################################################
+# TEMPORARY FILES
+##################################################
+
+tmp/
+temp/
+*.tmp
+
+
+##################################################
+# EDITOR / IDE FILES
+##################################################
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.sw?
+
+
+##################################################
+# OS FILES
+##################################################
+
+.DS_Store
+Thumbs.db
+
+
+##################################################
+# SECURITY / CREDENTIAL FILES
+##################################################
+
+secrets/
+credentials.json
+private_key.pem
+
+
+##################################################
+# CACHE FILES
+##################################################
+
+.cache/
+.eslintcache
+
+
+##################################################
+# ARCHIVES
+##################################################
+
+*.zip
+*.tar
+*.gz
+*.tgz

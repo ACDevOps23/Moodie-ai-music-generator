@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+html {
+    @apply bg-purple-950
+}
+
+.auth-container {
+    @apply min-h-screen flex justify-center pt-24 
+    bg-gradient-to-b from-purple-950 via-red-950 to-black
+}
+
+.btn-primary {
+    @apply flex justify-center items-center w-full mt-2 bg-purple-600 
+    text-white text-[19px] font-bold py-4 h-12 rounded-md hover:bg-purple-700 transition-colors hover:cursor-pointer rounded-md
+}
+
+.input-primary {
+    @apply w-full pl-10 pr-3 py-3 bg-white/19 backdrop-blur-lg text-white rounded-md bg-gray-900 
+    border border-white/20 outline-none placeholder-gray-400
+}
