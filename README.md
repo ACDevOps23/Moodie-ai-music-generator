@@ -139,7 +139,7 @@ Legal: Development Only personal project
     - Operating as a text-based intent parser (not a standalone voice assistant).
     - Using OAuth 2.0 for secure, user-authorized access.
 
-    - The project is not intended for commercial use
+    - The project is intended for non-commercial use
     - No revenue, monetization, or commercial services are associated with the application
     - The implementation is used solely for learning, experimentation, and technical demonstration
     - The repository is maintained as a private portfolio project and is shared only with potential employers or      technical reviewers.
@@ -161,5 +161,5 @@ Author
 
 License
     Copyright (c) @2026 Andrea Cimmino. All Rights Reserved. 
-     - This software is not licensed for distribution, modification, or commercial use without explicit written permission from the author.
+     - This software is NOT licensed for distribution, modification, or commercial usage.
      - This project is intended for personal educational and portfolio purposes NOT for commercial or profitable usage.
