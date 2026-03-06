@@ -162,4 +162,4 @@ Author
 License
     Copyright (c) @2026 Andrea Cimmino. All Rights Reserved. 
      - This software is NOT licensed for distribution, modification, or commercial usage.
-     - This project is intended for personal educational and portfolio purposes NOT for commercial or profitable usage.
+     - This project is intended for personal educational and portfolio purposes NOT for commercial or profitable usage. 
