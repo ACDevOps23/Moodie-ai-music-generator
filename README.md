@@ -131,27 +131,35 @@ Security Design
         - Rate limiting
         - Environment-based configuration
 
-Development-Only Deployment Model
+
+Legal: Development Only personal project
+
+    - This project is for educational/portfolio purposes only. It adheres to the Spotify Developer Policy by:
+    - Not using Spotify data to train or fine-tune AI models.
+    - Operating as a text-based intent parser (not a standalone voice assistant).
+    - Using OAuth 2.0 for secure, user-authorized access.
+
+    - The project is not intended for commercial use
+    - No revenue, monetization, or commercial services are associated with the application
+    - The implementation is used solely for learning, experimentation, and technical demonstration
+    - The repository is maintained as a private portfolio project and is shared only with potential employers or      technical reviewers.
 
 The project currently operates in Spotify development mode.
     Reasons:
        - Spotify requires approval before public production deployment.
        - The application uses developer credentials intended for evaluation and demonstration.
-       - This repository therefore focuses on architecture and implementation quality rather than production hosting.
+       - This repository therefore focuses on architecture and implementation quality not production hosting.
 
 Project Purpose and API Usage
     - This project was developed as a personal portfolio and educational project to demonstrate full-stack engineering concepts, including secure backend design, third-party API integration, and AI-assisted workflows.
     - The application integrates with the Spotify Web API for playlist creation, modification, upload, retrieve and track search functionality.
-    - The application integrates with Google Gemini API as a JSON intent parser to execute spotify functions requested by the user.
-    
-    Key points regarding usage:
-        - The project is not intended for commercial use
-        - No revenue, monetization, or commercial services are associated with the application
-        - The implementation is used solely for learning, experimentation, and technical demonstration
-        - The repository is maintained as a private portfolio project and is shared only with potential employers or      technical reviewers.
+    - The application integrates with Google Gemini API as a JSON intent parser only to execute spotify schema function requested by the user. 
+    - No Spotify data or information is trained or fed to Google's Gemini API (AI).
 
 Author
     Andrea Cimmino - Junior Full-Stack Developer
 
 License
-    This project is intended for educational and portfolio purposes NOT for commercial or profitable usage.
+    Copyright (c) @2026 Andrea Cimmino. All Rights Reserved. 
+     - This software is not licensed for distribution, modification, or commercial use without explicit written permission from the author.
+     - This project is intended for personal educational and portfolio purposes NOT for commercial or profitable usage.

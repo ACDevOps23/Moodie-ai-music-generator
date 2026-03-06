@@ -30,8 +30,8 @@ app.use(cookieParser(COOKIE_SECRET)); // to parse cookies
 app.use(mongoSanitiser); // to prevent NoSQL injection
 app.use(morgan("dev")); // to log HTTP requests
 app.use(helmet()); // to set secure HTTP headers
-//app.use(RateLimiter); // apply rate limiting
-//app.disable("x-powered-by"); // disable x-powered-by (remove response header ) for security in production
+app.use(RateLimiter); // apply rate limiting
+app.disable("x-powered-by"); // disable x-powered-by (remove response header ) for security in production
 
 app.use("/moodie/api/v1/", appRouter); // main application routes
 
