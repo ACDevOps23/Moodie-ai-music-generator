@@ -1,11 +1,11 @@
-Moodie – AI Spotify Playlist Generator
+# Moodie – AI Spotify Playlist Generator
 
 Moodie is a full-stack web application that generates Spotify playlists based on a user's mood and conversational input.
 It combines an AI-powered chat interface with the Spotify Web API to automatically create curated playlists tailored to a user's emotional state.
 
 The project demonstrates secure backend architecture, OAuth authentication, AI intent parsing, and third-party API integrations within a modern full-stack JavaScript environment.
 
-Features
+# Features
     - AI-driven chat interface that interprets user mood
     - Automatic Spotify playlist generation
     - Natural language → structured JSON intent parsing
@@ -31,13 +31,13 @@ Backend (Node.js + Express)
 
 The application separates responsibilities across three main layers:
 
-Frontend
+# Frontend
     - User interface
     - Chat interaction
     - Playlist display
     - Authentication state
 
-Backend
+# Backend
     - Authentication
     - AI intent validation
     - Spotify API orchestration
@@ -46,7 +46,7 @@ Backend
     - Spotify Web API
     - Google Gemini API
 
-Technology Stack
+# Technology Stack
     - Frontend
     - React
     - Vite
@@ -65,12 +65,11 @@ Technology Stack
     - Spotify Web API
     - Google Gemini API
 
-
-AI Intent Processing
+# AI Intent Processing
     Moodie uses Google Gemini as a structured intent parser rather than a traditional chatbot.
     The model converts natural language into deterministic JSON that the backend can safely process.
     This allows the application to combine natural language understanding with predictable backend logic.
-    
+      
     e.g., User message
         - I feel relaxed today, give me some chill R&B
 
@@ -99,7 +98,7 @@ AI Intent Processing
         - Adds the validated tracks to the playlist
         - This architecture ensures that AI output is validated and controlled before interacting with external APIs.
 
-Security Design
+# Security Design
     Security considerations were incorporated at multiple layers of the application.
     Authentication Security
     JWT access tokens with short expiration
@@ -132,7 +131,7 @@ Security Design
         - Environment-based configuration
 
 
-Legal: Development Only personal project
+# Legal: Development Only personal project
 
     - This project is for educational/portfolio purposes only. It adheres to the Spotify Developer Policy by:
     - Not using Spotify data to train or fine-tune AI models.
@@ -156,10 +155,10 @@ Project Purpose and API Usage
     - The application integrates with Google Gemini API as a JSON intent parser only to execute spotify schema function requested by the user. 
     - No Spotify data or information is trained or fed to Google's Gemini API (AI).
 
-Author
+# Author
     Andrea Cimmino - Junior Full-Stack Developer
 
-License
+# License
     Copyright (c) @2026 Andrea Cimmino. All Rights Reserved. 
      - This software is NOT licensed for distribution, modification, or commercial usage.
      - This project is intended for personal educational and portfolio purposes NOT for commercial or profitable usage. 
