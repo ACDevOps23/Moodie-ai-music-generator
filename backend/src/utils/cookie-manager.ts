@@ -7,7 +7,7 @@ const isProduction = NODE_ENV === "production";
 const cookie_manager = (req: Request, res: Response, cookieName: string, token: string, maxAge: any) => {
     return res.cookie(cookieName, token, { // Cookie Options
         httpOnly: true,
-        secure: isProduction,
+        secure: true,
         sameSite: isProduction ? "strict" : "lax",
         maxAge: maxAge,
         path: "/",
@@ -19,7 +19,7 @@ const cookie_manager = (req: Request, res: Response, cookieName: string, token: 
 const clearCookies = (req: Request, res: Response, cookieName: string) => { // Cookie Options
     return res.clearCookie(cookieName, {
         httpOnly: true,
-        secure: isProduction,
+        secure: true,
         sameSite: isProduction ? "strict" : "lax",
         path: "/",
         signed: true
