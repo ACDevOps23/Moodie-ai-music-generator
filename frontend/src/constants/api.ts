@@ -2,7 +2,7 @@
 const AUTH_API = import.meta.env.VITE_WEB_AUTH_API;
 
 if (!import.meta.env.VITE_WEB_AUTH_API) {
-    console.warn("VITE_WEB_AUTH_API not set, using default: http://127.0.0.1:5000/moodie/api/v1");
+    console.warn("VITE_WEB_AUTH_API not set);
 }
 
 export default AUTH_API;
